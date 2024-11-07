@@ -1,0 +1,90 @@
+/* define font style Figtree */
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/Figtree-variablefont_wght.ttf") format("truetype");
+  font-weight: 500, 800;
+  font-style: normal;
+}
+
+/* set the overall body style using Flexbox */
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* set the card style using Flexbox */
+.card-container {
+  width: 360px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: gray 950;
+  display: flex;
+  flex-direction: column; /*arrange items in a column*/
+  padding: 10px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  justify-content: space-evenly; /*align vertically */
+  align-items: center;
+  box-shadow: 8px 5px rgba(0, 0, 0, 0.8);
+  border: 1.5px solid hsl(0, 0%, 7%); /*set border style */
+}
+
+/* make rounded corner for the svg graphics */
+.rounded-rect {
+  /* width: 100%; */
+  border-radius: 10px;
+}
+
+/* set the text style "learning" */
+.label {
+  font-family: "Figtree", sans-reif;
+  font-weight: 800;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* set the background color for a word */
+.highlight {
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px;
+}
+
+/* set the date font */
+.date {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+}
+
+/* set h1 style */
+h1 {
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  align-self: first baseline;
+  margin: 10px;
+}
+
+/* set the main paragraph style */
+p {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+/* set footer style */
+footer {
+  display: flex;
+  flex-direction: row;
+  align-self: first baseline;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.author {
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  margin: 10px;
+}
